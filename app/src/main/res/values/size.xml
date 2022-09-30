@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="header_2" type="dimen">24sp</item>
+
+    <item name="body_2" type="dimen">18sp</item>
+    <item name="body_3" type="dimen">14sp</item>
+
+
+    <item name="card_font_size_title" type="dimen">@dimen/header_2</item>
+    <item name="card_font_size_short_description" type="dimen">@dimen/body_2</item>
+    <item name="card_font_size_description" type="dimen">@dimen/body_3</item>
+</resources>

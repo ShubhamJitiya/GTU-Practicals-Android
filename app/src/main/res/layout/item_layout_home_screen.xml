@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/Widget.Material3.CardView.Elevated"
+
+    android:layout_margin="4dp"
+    app:cardElevation="3dp"
+
+    android:clickable="true"
+    android:focusable="true"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:paddingTop="32dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/cardViewTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Practical 1"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/card_font_size_title"
+            />
+
+        <TextView
+            android:id="@+id/cardViewShortDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login activity | Control events"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/card_font_size_short_description"
+            android:layout_margin="4dp"
+            />
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginVertical="16dp"
+            android:layout_marginHorizontal="32dp"
+            />
+        <TextView
+            android:id="@+id/cardViewDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Design Login activity and implement control events : Use EditText, Checkbox and Buttons"
+            android:gravity="center_horizontal"
+          android:textSize="@dimen/card_font_size_description"
+            android:layout_margin="4dp"
+            />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
