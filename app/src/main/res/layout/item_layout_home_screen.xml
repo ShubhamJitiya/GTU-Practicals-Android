@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     style="@style/Widget.Material3.CardView.Elevated"
-
+    app:cardBackgroundColor="@color/cardViewBackgroundColor"
     android:layout_margin="4dp"
     app:cardElevation="3dp"
 
@@ -20,39 +20,44 @@
         android:paddingTop="32dp"
         android:orientation="vertical"
         >
+
         <TextView
             android:id="@+id/cardViewTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Practical 1"
+            android:fontFamily="@font/poppins_medium"
             android:gravity="center_horizontal"
-            android:textSize="@dimen/card_font_size_title"
-            />
+            android:text="Practical 1"
+            android:textColor="@color/cardViewHeading"
+            android:textSize="@dimen/card_font_size_title" />
 
         <TextView
             android:id="@+id/cardViewShortDescription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Login activity | Control events"
+            android:fontFamily="@font/poppins"
             android:gravity="center_horizontal"
-            android:textSize="@dimen/card_font_size_short_description"
-            android:layout_margin="4dp"
-            />
+            android:text="Login activity | Control events"
+            android:textColor="@color/cardViewSubHeading"
+            android:textSize="@dimen/card_font_size_short_description" />
         <com.google.android.material.divider.MaterialDivider
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_marginVertical="16dp"
             android:layout_marginHorizontal="32dp"
+            app:dividerColor="@color/light_grey"
             />
+
         <TextView
             android:id="@+id/cardViewDescription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Design Login activity and implement control events : Use EditText, Checkbox and Buttons"
-            android:gravity="center_horizontal"
-          android:textSize="@dimen/card_font_size_description"
             android:layout_margin="4dp"
-            />
+            android:fontFamily="@font/poppins"
+            android:gravity="center_horizontal"
+            android:text="Design Login activity and implement control events : Use EditText, Checkbox and Buttons"
+            android:textColor="@color/cardViewBody"
+            android:textSize="@dimen/card_font_size_description" />
 
     </LinearLayout>
 

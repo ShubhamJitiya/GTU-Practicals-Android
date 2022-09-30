@@ -11,6 +11,16 @@
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
         <!-- Customize your theme here. -->
+
     </style>
+
+    <!--Card View-->
+    <color name="cardViewHeading">@color/dark_blue</color>
+    <color name="cardViewSubHeading">@color/light_blue</color>
+    <color name="cardViewBody">@color/dark_grey</color>
+    <color name="cardViewDivider">@color/light_grey</color>
+    <color name="cardViewBackgroundColor">@color/white</color>
+
 </resources>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <item name="header_2" type="dimen">24sp</item>
+    <item name="header_2" type="dimen">30sp</item>
 
     <item name="body_2" type="dimen">18sp</item>
     <item name="body_3" type="dimen">14sp</item>
