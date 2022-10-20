@@ -10,7 +10,9 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.shubhamjitiya.mad.adapter.MainScreenAdapter;
+import com.shubhamjitiya.mad.adapter.StudentDetailsAdapter;
 import com.shubhamjitiya.mad.data.MainScreenData;
+import com.shubhamjitiya.mad.data.StudentsData;
 import com.shubhamjitiya.mad.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
