@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -11,7 +12,9 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.shubhamjitiya.mad.R;
+import com.shubhamjitiya.mad.bottomsheet.BottomSheetAddStudent;
 import com.shubhamjitiya.mad.practicals.Practical_7;
 
 public class MainScreenAdapter extends RecyclerView.Adapter<MainScreenAdapter.ViewHolder> {
@@ -61,6 +64,17 @@ public class MainScreenAdapter extends RecyclerView.Adapter<MainScreenAdapter.Vi
                         view.getContext().startActivity(openPractical);
                         break;
                     case 1:
+                        BottomSheetDialog addStudent = new BottomSheetDialog(view.getContext());
+                        addStudent.setContentView(R.layout.bottom_sheet_add_student);
+
+                        Button btnAddStudent = addStudent.findViewById(R.id.btnAddStudent);
+                        btnAddStudent.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                Toast.makeText(view.getContext(), "Student added successfully", Toast.LENGTH_SHORT).show();
+                            }
+                        });
+                        addStudent.show();
                         Toast.makeText(view.getContext(), "Clicked: second ", Toast.LENGTH_SHORT).show();
                         break;
 
