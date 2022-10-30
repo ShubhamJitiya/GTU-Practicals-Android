@@ -5,17 +5,21 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
+import androidx.fragment.app.FragmentActivity;
+import androidx.lifecycle.ViewModelProviders;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.bottomsheet.BottomSheetDialog;
+import com.google.android.material.snackbar.Snackbar;
 import com.shubhamjitiya.mad.R;
-import com.shubhamjitiya.mad.bottomsheet.BottomSheetAddStudent;
 import com.shubhamjitiya.mad.practicals.Practical_7;
+import com.shubhamjitiya.mad.practicals.Practical_8;
 
 public class MainScreenAdapter extends RecyclerView.Adapter<MainScreenAdapter.ViewHolder> {
     private final String[] practicalTitle;
@@ -63,19 +67,10 @@ public class MainScreenAdapter extends RecyclerView.Adapter<MainScreenAdapter.Vi
                         Intent openPractical = new Intent(view.getContext(), Practical_7.class);
                         view.getContext().startActivity(openPractical);
                         break;
-                    case 1:
-                        BottomSheetDialog addStudent = new BottomSheetDialog(view.getContext());
-                        addStudent.setContentView(R.layout.bottom_sheet_add_student);
-
-                        Button btnAddStudent = addStudent.findViewById(R.id.btnAddStudent);
-                        btnAddStudent.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                Toast.makeText(view.getContext(), "Student added successfully", Toast.LENGTH_SHORT).show();
-                            }
-                        });
-                        addStudent.show();
-                        Toast.makeText(view.getContext(), "Clicked: second ", Toast.LENGTH_SHORT).show();
+                    case 7:
+                        Intent openPractical8 = new Intent(view.getContext(), Practical_8.class);
+                        view.getContext().startActivity(openPractical8);
+                      // Toast.makeText(view.getContext(), "Clicked: second ", Toast.LENGTH_SHORT).show();
                         break;
 
                 }
