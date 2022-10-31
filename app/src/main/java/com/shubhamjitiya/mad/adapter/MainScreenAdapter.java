@@ -20,6 +20,7 @@ import com.google.android.material.snackbar.Snackbar;
 import com.shubhamjitiya.mad.R;
 import com.shubhamjitiya.mad.practicals.Practical_7;
 import com.shubhamjitiya.mad.practicals.Practical_8;
+import com.shubhamjitiya.mad.practicals.Practical_9;
 
 public class MainScreenAdapter extends RecyclerView.Adapter<MainScreenAdapter.ViewHolder> {
     private final String[] practicalTitle;
@@ -70,6 +71,11 @@ public class MainScreenAdapter extends RecyclerView.Adapter<MainScreenAdapter.Vi
                     case 7:
                         Intent openPractical8 = new Intent(view.getContext(), Practical_8.class);
                         view.getContext().startActivity(openPractical8);
+                      // Toast.makeText(view.getContext(), "Clicked: second ", Toast.LENGTH_SHORT).show();
+                        break;
+                        case 8:
+                        Intent openPractical9 = new Intent(view.getContext(), Practical_9.class);
+                        view.getContext().startActivity(openPractical9);
                       // Toast.makeText(view.getContext(), "Clicked: second ", Toast.LENGTH_SHORT).show();
                         break;
 
