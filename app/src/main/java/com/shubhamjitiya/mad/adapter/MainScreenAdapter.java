@@ -17,6 +17,7 @@ import com.shubhamjitiya.mad.practical_12.Practical_12;
 import com.shubhamjitiya.mad.practical_13.Practical_13;
 import com.shubhamjitiya.mad.practical_14.Practical_14;
 import com.shubhamjitiya.mad.practical_15.Practical_15;
+import com.shubhamjitiya.mad.practical_16.Practical_16;
 import com.shubhamjitiya.mad.practicals.Practical_7;
 import com.shubhamjitiya.mad.practicals.Practical_8;
 import com.shubhamjitiya.mad.practicals.Practical_9;
@@ -106,6 +107,11 @@ public class MainScreenAdapter extends RecyclerView.Adapter<MainScreenAdapter.Vi
                     case 14:
                         Intent openPractical_15 = new Intent(view.getContext(), Practical_15.class);
                         view.getContext().startActivity(openPractical_15);
+                        // Toast.makeText(view.getContext(), "Clicked: second ", Toast.LENGTH_SHORT).show();
+                        break;
+                    case 15:
+                        Intent openPractical_16 = new Intent(view.getContext(), Practical_16.class);
+                        view.getContext().startActivity(openPractical_16);
                         // Toast.makeText(view.getContext(), "Clicked: second ", Toast.LENGTH_SHORT).show();
                         break;
 
