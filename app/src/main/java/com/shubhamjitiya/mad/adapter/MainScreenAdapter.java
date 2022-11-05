@@ -11,6 +11,7 @@ import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.shubhamjitiya.mad.R;
+import com.shubhamjitiya.mad.practical_1.Practical_1;
 import com.shubhamjitiya.mad.practical_10.Practical_10;
 import com.shubhamjitiya.mad.practical_11.Practical_11;
 import com.shubhamjitiya.mad.practical_12.Practical_12;
@@ -64,6 +65,10 @@ public class MainScreenAdapter extends RecyclerView.Adapter<MainScreenAdapter.Vi
             @Override
             public void onClick(View view) {
                 switch (position) {
+                    case 0:
+                        Intent openPractical1 = new Intent(view.getContext(), Practical_1.class);
+                        view.getContext().startActivity(openPractical1);
+                        break;
                     case 5:
                     case 6:
                         Intent openPractical = new Intent(view.getContext(), Practical_7.class);

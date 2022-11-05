@@ -25,6 +25,9 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".practical_1.Practical_1"
+            android:exported="false" />
+        <activity
             android:name=".practical_17.Practical_17"
             android:exported="false" />
         <activity
