@@ -25,10 +25,13 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".practical_5.Practical_5"
+            android:exported="false" />
+        <activity
             android:name=".practical_4.SecondActivity"
+            android:exported="false"
             android:label="Second Activity"
-            android:parentActivityName=".practical_4.Practical_4"
-            android:exported="false">
+            android:parentActivityName=".practical_4.Practical_4">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.shubhamjitiya.mad.practical_4.Practical_4" />
