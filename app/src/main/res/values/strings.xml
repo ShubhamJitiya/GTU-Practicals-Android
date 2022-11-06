@@ -60,4 +60,11 @@
     <string name="start_tracking_location">Start tracking location</string>
     <string name="stop_tracking_location">Stop tracking location</string>
 
+    <!--Practical 3 : Intent-->
+    <string name="button_main">Send</string>
+    <string name="editText_main">Enter Your Message Here</string>
+    <string name="text_header">Message Received</string>
+    <string name="button_second">Reply</string>
+    <string name="editText_second">Enter Your Reply Here</string>
+    <string name="text_header_reply">Reply Received</string>
 </resources>

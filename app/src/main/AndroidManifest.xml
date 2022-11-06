@@ -24,6 +24,20 @@
         android:theme="@style/Theme.MAD"
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
+
+        <activity
+            android:name=".practical_3.SecondActivity"
+            android:label="Second Activity"
+            android:parentActivityName=".practical_3.Practical_3"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.shubhamjitiya.mad.practical_3.Practical_3"/>
+        </activity>
+
+        <activity
+            android:name=".practical_3.Practical_3"
+            android:exported="false" />
         <activity
             android:name=".practical_2.Practical_2"
             android:exported="false" />
