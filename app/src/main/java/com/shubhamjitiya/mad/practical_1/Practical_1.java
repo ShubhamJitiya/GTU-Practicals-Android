@@ -19,6 +19,7 @@ public class Practical_1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityPractical1Binding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+        getSupportActionBar().hide();
 
 
         binding.idBtnLogin.setOnClickListener(new View.OnClickListener() {

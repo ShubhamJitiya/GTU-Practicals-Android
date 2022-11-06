@@ -49,8 +49,7 @@ public class Practical_16 extends AppCompatActivity implements
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_practical16);
-
-
+        getSupportActionBar().hide();
         mLocationButton = (Button) findViewById(R.id.button_location);
         mLocationTextView = (TextView) findViewById(R.id.textview_location);
         mAndroidImageView = (ImageView) findViewById(R.id.imageview_android);

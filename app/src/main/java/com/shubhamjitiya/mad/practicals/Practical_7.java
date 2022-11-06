@@ -25,6 +25,8 @@ public class Practical_7 extends AppCompatActivity {
         View view = binding.getRoot();
         setContentView(view);
 
+        getSupportActionBar().hide();
+
         StudentDetailsAdapter studentAdapter = new StudentDetailsAdapter(new StudentsData());
         binding.rvPractical7.setHasFixedSize(true);
         binding.rvPractical7.setLayoutManager(new LinearLayoutManager(this));

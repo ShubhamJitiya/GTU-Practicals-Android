@@ -35,6 +35,9 @@ public class EditCourseActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_course);
+
+        getSupportActionBar().hide();
+
         Button addCourseBtn = findViewById(R.id.btnEditUpdateCourse);
         courseNameEdt = findViewById(R.id.etEditCourseName);
         coursePriceEdt = findViewById(R.id.etEditCoursePrice);

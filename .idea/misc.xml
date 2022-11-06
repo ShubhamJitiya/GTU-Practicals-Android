@@ -5,27 +5,28 @@
       <map>
         <entry key="..\:/Temp/MAD/app/src/main/res/drawable/android_plain.xml" value="0.1" />
         <entry key="..\:/Temp/MAD/app/src/main/res/drawable/button_back.xml" value="0.1" />
+        <entry key="..\:/Temp/MAD/app/src/main/res/drawable/ic_email.xml" value="0.2385" />
         <entry key="..\:/Temp/MAD/app/src/main/res/drawable/progress_back.xml" value="0.1" />
         <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_add_course.xml" value="0.264" />
         <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_edit_course.xml" value="0.264" />
         <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_main.xml" value="0.21770833333333334" />
-        <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_new_course.xml" value="0.23229166666666667" />
+        <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_new_course.xml" value="0.264" />
         <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_practical1.xml" value="0.4" />
         <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_practical10.xml" value="0.264" />
         <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_practical11.xml" value="0.264" />
         <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_practical12.xml" value="0.1" />
         <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_practical13.xml" value="0.23229166666666667" />
-        <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_practical14.xml" value="0.2" />
+        <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_practical14.xml" value="0.264" />
         <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_practical15.xml" value="0.2" />
-        <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_practical16.xml" value="0.16" />
+        <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_practical16.xml" value="0.2" />
         <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_practical17.xml" value="0.1" />
         <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_practical2.xml" value="0.4" />
         <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_practical3.xml" value="0.1" />
         <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_practical4.xml" value="0.2" />
-        <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_practical5.xml" value="0.23229166666666667" />
+        <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_practical5.xml" value="0.2" />
         <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_practical7.xml" value="0.264" />
-        <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_practical8.xml" value="0.24479166666666666" />
+        <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_practical8.xml" value="0.1956140350877193" />
         <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_practical9.xml" value="0.23229166666666667" />
         <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_register.xml" value="0.2" />
         <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_screen_saver.xml" value="0.21822916666666667" />

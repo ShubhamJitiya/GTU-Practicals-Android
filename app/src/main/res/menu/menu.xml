@@ -24,13 +24,18 @@
         android:title="mode"/>
 
     <item
-        android:id="@+id/about"
+        android:id="@+id/linkedIn"
         android:icon="@android:drawable/ic_dialog_info"
         app:showAsAction="never|withText"
-        android:title="calculator"/>
+        android:title="LinkedIn"/>
+    <item
+        android:id="@+id/behance"
+        android:icon="@android:drawable/ic_dialog_info"
+        app:showAsAction="never|withText"
+        android:title="Behance"/>
 
     <item
         android:id="@+id/exit"
         app:showAsAction="never"
-        android:title="exit"/>
+        android:title="Exit"/>
 </menu>

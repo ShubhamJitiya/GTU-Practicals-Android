@@ -29,6 +29,8 @@ public class Practical_15 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_practical15);
 
+        getSupportActionBar().hide();
+
         btnCapture=findViewById(R.id.btnCapture);
         imgCapture=findViewById(R.id.imgCapture);
         btnCapture.setOnClickListener(new View.OnClickListener() {

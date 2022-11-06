@@ -47,6 +47,7 @@ public class Practical_13 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_practical13);
 
+        getSupportActionBar().hide();
         // Create the notification channel.
         createNotificationChannel();
 

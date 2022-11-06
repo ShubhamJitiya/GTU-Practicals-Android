@@ -10,7 +10,8 @@
         android:id="@+id/toolBar15"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/blue_background"
+        android:background="@color/dark_blue"
+        android:fontFamily="@font/poppins"
         app:title="Practical 15"
         app:titleTextColor="@color/white" />
 
@@ -20,8 +21,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/toolBar15"
         android:layout_marginStart="46dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="46dp"
+        android:fontFamily="@font/poppins"
         android:text="Name : Shubham Jitiya"
         android:textColor="@color/black"
         android:textSize="15sp"
@@ -31,6 +33,7 @@
         android:id="@+id/tverno"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
         android:layout_below="@id/tvName"
         android:layout_marginStart="46dp"
         android:layout_marginTop="10dp"
@@ -48,8 +51,9 @@
         android:layout_marginStart="46dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="46dp"
+        android:fontFamily="@font/poppins"
         android:text="Aim 15: Practical : make a use of android system."
-        android:textColor="@color/black"
+        android:textColor="@color/dark_grey"
         android:textSize="15sp"
         android:textStyle="normal" />
 
@@ -60,13 +64,19 @@
         android:layout_below="@+id/tvaim15"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
-        android:text="Click here to capture image." />
+        android:backgroundTint="@color/dark_blue"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Capture"
+        android:textAllCaps="true" />
 
     <ImageView
         android:id="@+id/imgCapture"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_below="@+id/btnCapture"
         android:layout_centerHorizontal="true"
-        android:layout_margin="20dp" />
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp" />
 </RelativeLayout>

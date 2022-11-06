@@ -50,6 +50,7 @@ public class Practical_11 extends AppCompatActivity implements CourseRVAdapter.C
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_practical11);
 
+
         courseRV = findViewById(R.id.idRVCourses);
         homeRL = findViewById(R.id.idRLBSheet);
         loadingPB = findViewById(R.id.idPBLoading);

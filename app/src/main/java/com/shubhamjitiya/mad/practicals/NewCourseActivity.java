@@ -28,6 +28,7 @@ public class NewCourseActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_new_course);
 
+        getSupportActionBar().hide();
 
         // initializing our variables for each view.
         courseNameEdt = findViewById(R.id.idEdtCourseName);

@@ -48,6 +48,8 @@ public class Practical_14 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_practical14);
 
+        getSupportActionBar().hide();
+
         // Initialize views, color, preferences
         mShowCountTextView = findViewById(R.id.count_textview);
         mColor = ContextCompat.getColor(this,

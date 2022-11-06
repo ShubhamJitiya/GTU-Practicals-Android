@@ -38,6 +38,8 @@ public class Practical_9 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_practical9);
 
+        getSupportActionBar().hide();
+
         Button button=findViewById(R.id.asyncTask);
         imageView=findViewById(R.id.image);
         button.setOnClickListener(new View.OnClickListener() {

@@ -33,6 +33,8 @@ public class AddCourseActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_course);
 
+        getSupportActionBar().hide();
+
         addCourseBtn = findViewById(R.id.idBtnAddCourse);
         courseNameEdt = findViewById(R.id.idEdtCourseName);
         courseDescEdt = findViewById(R.id.idEdtCourseDescription);

@@ -1,9 +1,179 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".practical_5.Practical_5">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/dark_blue"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center_horizontal"
+        android:paddingVertical="4dp"
+        android:text="My Apps"
+        android:textColor="@color/white"
+        android:textSize="@dimen/header_3" />
+
+    <TextView
+        android:id="@+id/gtu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins"
+        android:paddingVertical="4dp"
+        android:text="1. GTU - Everything for students"
+        android:textSize="@dimen/body_3" />
+
+    <TextView
+        android:id="@+id/god"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins"
+        android:paddingVertical="4dp"
+        android:text="2. GOD - Goal of the day"
+        android:textSize="@dimen/body_3" />
+
+    <TextView
+        android:id="@+id/whatsinsta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins"
+        android:paddingVertical="4dp"
+        android:text="3. WhatsInsta - Status saver"
+        android:textSize="@dimen/body_3" />
+
+    <TextView
+        android:id="@+id/mystfying"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins"
+        android:paddingVertical="4dp"
+        android:text="4. Mystfying - Anonymous messaging app"
+        android:textSize="@dimen/body_3" />
+
+    <TextView
+        android:id="@+id/hometutor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins"
+        android:paddingVertical="4dp"
+        android:text="5. Home tutoring app"
+        android:textSize="@dimen/body_3" />
+
+    <TextView
+        android:id="@+id/billing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins"
+        android:paddingVertical="4dp"
+        android:text="6. Automatic bill generator"
+        android:textSize="@dimen/body_3" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:background="@color/dark_blue"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center_horizontal"
+        android:paddingVertical="4dp"
+        android:text="My Designs"
+        android:textColor="@color/white"
+        android:textSize="@dimen/header_3" />
+
+    <TextView
+        android:id="@+id/blinkit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins"
+        android:paddingVertical="4dp"
+        android:text="1. Redesign blinkit  app"
+        android:textSize="@dimen/body_3" />
+
+    <TextView
+        android:id="@+id/feeder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins"
+        android:paddingVertical="4dp"
+        android:text="2. Feeder save food"
+        android:textSize="@dimen/body_3" />
+
+    <TextView
+        android:id="@+id/dashboardDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins"
+        android:paddingVertical="4dp"
+        android:text="3. Dashboard details"
+        android:textSize="@dimen/body_3" />
+
+    <TextView
+        android:id="@+id/myGuru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins"
+        android:paddingVertical="4dp"
+        android:text="4. My Guru"
+        android:textSize="@dimen/body_3" />
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="32dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_email" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/poppins"
+            android:text="jitiya66@gmail.com"
+            android:textColor="@color/dark_grey" />
+    </LinearLayout>
+</LinearLayout>
+
+
+</ScrollView>
