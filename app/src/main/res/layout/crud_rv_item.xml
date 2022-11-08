@@ -6,20 +6,20 @@
     android:layout_height="wrap_content"
     android:layout_gravity="center"
     android:layout_margin="5dp"
-    app:cardCornerRadius="4dp"
+    app:cardCornerRadius="8dp"
     app:cardElevation="3dp">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/black_shade_1">
+        android:background="@color/black_shade_2">
 
         <!--image view for our course-->
         <ImageView
             android:id="@+id/idIVCourseFirebase"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:scaleType="centerCrop" />
+            android:scaleType="fitXY" />
 
         <!--text view for course name-->
         <TextView

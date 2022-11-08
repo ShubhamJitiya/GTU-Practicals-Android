@@ -11,18 +11,18 @@
         <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_edit_course.xml" value="0.264" />
         <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_main.xml" value="0.21770833333333334" />
-        <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_new_course.xml" value="0.264" />
+        <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_new_course.xml" value="0.176" />
         <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_practical1.xml" value="0.4" />
         <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_practical10.xml" value="0.264" />
         <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_practical11.xml" value="0.264" />
         <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_practical12.xml" value="0.1" />
         <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_practical13.xml" value="0.23229166666666667" />
         <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_practical14.xml" value="0.264" />
-        <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_practical15.xml" value="0.2" />
+        <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_practical15.xml" value="0.4" />
         <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_practical16.xml" value="0.2" />
         <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_practical17.xml" value="0.1" />
         <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_practical2.xml" value="0.4" />
-        <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_practical3.xml" value="0.1" />
+        <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_practical3.xml" value="0.2" />
         <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_practical4.xml" value="0.2" />
         <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_practical5.xml" value="0.2" />
         <entry key="..\:/Temp/MAD/app/src/main/res/layout/activity_practical7.xml" value="0.264" />
@@ -35,10 +35,10 @@
         <entry key="..\:/Temp/MAD/app/src/main/res/layout/bottom_sheet_add_student.xml" value="0.264" />
         <entry key="..\:/Temp/MAD/app/src/main/res/layout/bottom_sheet_layout.xml" value="0.2" />
         <entry key="..\:/Temp/MAD/app/src/main/res/layout/course_rv_item.xml" value="0.2" />
-        <entry key="..\:/Temp/MAD/app/src/main/res/layout/crud_rv_item.xml" value="0.264" />
+        <entry key="..\:/Temp/MAD/app/src/main/res/layout/crud_rv_item.xml" value="0.2" />
         <entry key="..\:/Temp/MAD/app/src/main/res/layout/item_layout_home_screen.xml" value="0.4" />
         <entry key="..\:/Temp/MAD/app/src/main/res/layout/item_layout_main_activity.xml" value="0.176" />
-        <entry key="..\:/Temp/MAD/app/src/main/res/layout/item_layout_student_details.xml" value="0.4" />
+        <entry key="..\:/Temp/MAD/app/src/main/res/layout/item_layout_student_details.xml" value="0.2" />
         <entry key="..\:/Temp/MAD/app/src/main/res/menu/menu.xml" value="0.536" />
         <entry key="..\:/Temp/MAD/app/src/main/res/menu/menu_main.xml" value="0.2" />
       </map>
