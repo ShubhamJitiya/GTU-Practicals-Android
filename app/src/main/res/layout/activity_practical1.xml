@@ -118,6 +118,7 @@
         android:textColor="@color/white"
         android:textSize="18sp" />
 
+
     <!--progress-bar for loading indicator-->
     <ProgressBar
         android:id="@+id/idPBLoading"
@@ -129,5 +130,8 @@
         android:indeterminate="true"
         android:indeterminateDrawable="@drawable/progress_back"
         android:visibility="gone" />
+
+
+
 
 </RelativeLayout>

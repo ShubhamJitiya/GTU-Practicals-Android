@@ -12,6 +12,7 @@
 
     <!--recycler view for our data-->
     <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@id/name"
         android:id="@+id/idRVCourses"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -39,5 +40,15 @@
         app:background="@color/black_shade_1"
         app:backgroundTint="@color/black_shade_2"
         app:tint="@color/white" />
+
+    <include
+        android:id="@+id/name"
+        layout="@layout/item_layout_name_enroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="16dp"
+        />
+
 
 </RelativeLayout>
