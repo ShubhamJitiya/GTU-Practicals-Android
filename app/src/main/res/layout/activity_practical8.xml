@@ -6,13 +6,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="16dp"
     tools:context=".practicals.Practical_8">
 
     <include
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         layout="@layout/item_layout_name_enroll"
-        android:layout_margin="16dp"
         />
 
     <!--recycler view to display our data-->
