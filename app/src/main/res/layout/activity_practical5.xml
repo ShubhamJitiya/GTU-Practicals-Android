@@ -11,7 +11,11 @@
     android:orientation="vertical"
     >
 
-    <include layout="@layout/item_layout_name_enroll"/>
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/item_layout_name_enroll"
+        android:layout_margin="16dp" />
 
     <TextView
         android:layout_width="match_parent"
