@@ -8,10 +8,13 @@
     android:orientation="vertical"
     tools:context=".practicals.Practical_8">
 
+    <include layout="@layout/item_layout_name_enroll"/>
+
     <!--recycler view to display our data-->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/idRVCourses"
         android:layout_width="match_parent"
+        android:paddingTop="80dp"
         android:layout_height="match_parent" />
 
     <!--fab to add new courses-->

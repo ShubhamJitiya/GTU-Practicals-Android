@@ -21,7 +21,7 @@ public class Practical_1 extends AppCompatActivity {
         setContentView(binding.getRoot());
         getSupportActionBar().hide();
 
-        View nameEnroll = View.inflate(this, R.layout.item_layout_name_enroll, binding.getRoot());
+//        View nameEnroll = View.inflate(this, R.layout.item_layout_name_enroll, binding.getRoot());
 
 
 

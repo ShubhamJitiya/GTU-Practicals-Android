@@ -20,6 +20,16 @@
     android:padding="16dp"
     tools:context=".practical_14.Practical_14">
 
+    <include
+        android:id="@+id/name"
+        layout="@layout/item_layout_name_enroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:id="@+id/count_textview"
         android:layout_width="0dp"
@@ -33,7 +43,7 @@
         app:layout_constraintDimensionRatio="1:1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toBottomOf="@id/name"/>
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline_upper"

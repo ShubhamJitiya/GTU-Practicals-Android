@@ -11,6 +11,8 @@
     android:orientation="vertical"
     >
 
+    <include layout="@layout/item_layout_name_enroll"/>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

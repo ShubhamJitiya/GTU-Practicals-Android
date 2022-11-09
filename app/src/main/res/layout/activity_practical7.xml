@@ -9,13 +9,16 @@
 
     >
 
+    <include layout="@layout/item_layout_name_enroll"/>
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvPractical7"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:paddingTop="80dp"/>
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btnTheme"
         android:layout_alignParentEnd="true"
